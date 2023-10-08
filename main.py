@@ -1,13 +1,18 @@
 # Решение домашней работы №20
 
 def say_hello(name: str):
-    print(f"Hello, {name}!")
+    """
+    Функция приветствия
+    :param name: Имя
+    :return: None
+    """
+    print(f"Привет, {name}!")
 
 
 def main():
-    name = input("Enter your name: ")
+    name = input("Пожалуйста введите ваше имя: ")
     say_hello(name)
-    input("Press Enter to continue...")
+    input("Нажмите Enter для выхода...")
 
 
 if __name__ == "__main__":
