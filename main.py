@@ -6,6 +6,7 @@ def say_hello(name: str):
     :param name: Имя
     :return: None
     """
+
     print(f"Привет, {name}!")
 
 
