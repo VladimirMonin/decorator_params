@@ -10,9 +10,20 @@ def say_hello(name: str):
     print(f"Привет, {name}!")
 
 
+def say_something(something: str):
+    """
+    Функция вывода строки
+    :param something: Строка
+    :return: None
+    """
+
+    print(something)
+
+
 def main():
     name = input("Пожалуйста введите ваше имя: ")
     say_hello(name)
+    say_something("Это моя первая программа")
     input("Нажмите Enter для выхода")
 
 
