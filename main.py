@@ -14,6 +14,6 @@ def main():
     say_hello(name)
     input("Нажмите Enter для выхода")
 
-# TODO Очень важная заметка. Не забудь ЭТО ПОПРАВИТЬ!
+
 if __name__ == "__main__":
     main()
