@@ -164,3 +164,4 @@ cython_debug/
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/PYTHON329_HW_20.iml
 /.idea/vcs.xml
+/.idea/.gitignore
